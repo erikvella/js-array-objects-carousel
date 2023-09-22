@@ -48,6 +48,7 @@
 
 .items-wrapper{
   height: 100%;
+  position: relative;
 }
 
 .items-wrapper img{
@@ -55,7 +56,14 @@
   height: 100%;
   object-fit: cover;
 }
-
+.didascalia{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  
+  color: white;
+  border: 2px solid yellow;
+}
 .hide{
   display: none;
 }
