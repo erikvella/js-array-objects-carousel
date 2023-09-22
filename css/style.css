@@ -51,7 +51,10 @@
   position: relative;
 }
 
-.items-wrapper img{
+.card{
+  height: 100%;
+}
+.card img{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -60,9 +63,9 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  
+  margin: 20px;
   color: white;
-  border: 2px solid yellow;
+  
 }
 .hide{
   display: none;

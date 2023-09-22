@@ -46,18 +46,23 @@ let imgCounter = 0;
 //   itemsWrapper.innerHTML += `<img src="${image}" class="item hide" >`;
 // };
 
+// Ciclo le immagini con testo 
+
 for(let slide of imgCollection){
   
     console.log(imgCollection);
 
   
-  itemsWrapper.innerHTML += `<img src="${slide.image}" alt="" class="item hide">
-  <div class="didascalia item hide m-5 ">
+  itemsWrapper.innerHTML += `<div class="card item hide">
+  <img src="${slide.image}" alt="">
+  <div class="didascalia">
    <h2>${slide.title}</h2>
    <p>
      ${slide.text}
    </p>
+  </div>
   </div>`
+  
   }
 
 
